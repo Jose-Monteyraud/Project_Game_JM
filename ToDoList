@@ -1,0 +1,29 @@
+Personnages 
+{
+    Nom as String,
+    Attaques/coups (fonctions){
+                          Lourdes,
+                          Légères, 
+                          Lancers,
+                          Final 
+                          (neutre, coté, bas, Haut)
+                        }
+    Stats { 
+        PV as integer
+        Att as integer 
+        Def as integer
+        Vitesse as float
+        Poids as integer
+        }
+    Equipement (2)
+    {
+      Dégats de bases as float
+      Nom as String,
+    }
+    Sprites (a définir)
+}
+
+Elements {
+      Nom as String, 
+      Effets (a définir)
+      }
